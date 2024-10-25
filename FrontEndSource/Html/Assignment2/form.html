@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+</head>
+<body>
+    <fieldset style="background-color: rgb(198, 198, 198);">
+        <table>
+            <tr>
+                <td><label>FirstName :</label></td>
+                <td><input type="text" style="width: 250px;" placeholder="First Name"></td>
+                <td><p><strong>(Max 30 character A-Z and A-Z)</strong></p></td>
+            </tr>
+            <tr>
+                <td><label>LastName : </label></td>
+                <td><input type="text" style="width: 250px;" placeholder="Last Name"></td>
+                <td><p><strong>(Max 30 character A-Z and A-Z)</strong></p></td>
+            </tr>
+            <tr>
+                <td><label>Date Of Birth : </label></td>
+                <td><select name="" id=""><option value="">Days</option></select> <select name="" id=""><option value="">Months</option></select> <select name="" id=""><option value="">Years</option></select></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="">Email id : </label></td>
+                <td><input type="email" style="width: 250px;" placeholder="Email id"></td>
+                
+            </tr>
+            <tr>
+                <td><label for="">Gender : </label></td>
+                <td><input type="radio" name="gen">Male <input type="radio" name="gen">Female</td>
+            </tr>
+            <tr>
+                <td><label for="">Address : </label></td>
+                <td colspan="2"><textarea name="" id="" cols="60" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">Pincode : </label></td>
+                <td><input type="number" style="width: 250px;" placeholder="Pincode"></td>
+            </tr>
+            <tr>
+                <td><label for="">State : </label></td>
+                <td><input type="text" style="width: 250px;" placeholder="State"></td>
+            </tr>
+            <tr><td><label for="">City : </label></td>
+                <td><input type="text" style="width: 250px;" placeholder="City"></td></tr>
+            <tr><td><label for="">Country : </label></td>
+                <td><input type="text" style="width: 250px;" placeholder="Country"></td></tr>
+            <tr>
+                <td><label for="">Hobbies : </label></td>
+                <td colspan="2"><input type="checkbox" >Drawing <input type="checkbox" >Singing <input type="checkbox" >Dancing <input type="checkbox" >Sketching </td>
+            </tr>
+            <tr>
+                <td><label>Qualification : </label></td>
+                <td colspan="2">
+                    <table border="">
+                        <thead style="background-color: aqua;">
+                            <tr>
+                                <td>Sl.No.</td>
+                                <td>Examination</td>
+                                <td>Board</td>
+                                <td>Percentage</td>
+                                <td>Year Of Passing</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="background-color: aqua;">1.</td>
+                                <td><input type="text" placeholder="Examination"></td>
+                                <td><input type="text" placeholder="Board"></td>
+                                <td><input type="number" placeholder="Percentage"></td>
+                                <td><input type="number" placeholder="Year Of Passing"></td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: aqua;">2.</td>
+                                <td><input type="text" placeholder="Examination"></td>
+                                <td><input type="text" placeholder="Board"></td>
+                                <td><input type="number" placeholder="Percentage"></td>
+                                <td><input type="number" placeholder="Year Of Passing"></td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: aqua;">3.</td>
+                                <td><input type="text" placeholder="Examination"></td>
+                                <td><input type="text" placeholder="Board"></td>
+                                <td><input type="number" placeholder="Percentage"></td>
+                                <td><input type="number" placeholder="Year Of Passing"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Courses : </label></td>
+                <td><input type="radio" name="course" >BCA <input type="radio" name="course">MCA</td>
+            </tr>
+            <tr><td><br></td></tr>
+            <tr>
+                <td><input style="background-color: aqua;" type="submit" value="Send Now"></td>
+            </tr>
+
+        </table>
+    </fieldset>
+</body>
+</html>
